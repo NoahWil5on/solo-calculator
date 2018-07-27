@@ -1,0 +1,30 @@
+{
+  "name": "syncing-2",
+  "version": "1.0.0",
+  "description": "assignment part 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nxb3051/BallsOfLight.git"
+  },
+  "author": "Noah Wilson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nxb3051/BallsOfLight/issues"
+  },
+  "homepage": "https://github.com/nxb3051/BallsOfLight#readme",
+  "devDependencies": {
+    "eslint": "^4.18.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "npm": "^5.8.0"
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="Solo Showdown Calculator" />
+    <meta property="og:description" content="Calculate the score that you earned on a solo showdown match" />
+    <meta property="og:image" content="./assets/images/show_down.png"/>
+
+    <script src="/assets/scripts/script.js"></script>
+    <link rel="stylesheet" href="/assets/styles/style.css" />
+    <link rel="icon" type="image/png" href="./assets/images/num-icon.png">
+</head>
+
+<body>
+    <header>
+        <h2>Solo Score Calculator</h2>
+    </header>
+    <section>
+        <div class="floater left">
+            <img class="limit" src="./assets/images/bear.png">
+        </div>
+        <div class="floater right">
+            <img class="limit" src="./assets/images/no-skin.png">
+        </div>
+        <div class="content">
+            <div class="num-input">
+                <label>Kills</label>
+                <input type="number" id="kills" placeholder="0" min="0" max="99" value="0" pattern="[0-9]" />
+            </div>
+            <div class="num-input">
+                <label>Placement</label>
+                <input type="number" id="place" placeholder="100" min="1" max="100" value="100" pattern="[0-9]" />
+            </div>
+            <button onclick="doCalculate()">Calculate Score</button>
+            <p id="output"></p>
+        </div>
+    </section>
+    <div class="footer">
+        <p>Created in conjunction with
+            <span>4am Fortnite</span>
+        </p>
+        <img src="./assets/images/num-2.png" alt="#2 victory royale" />
+    </div>
+</body>
+
+</html>
