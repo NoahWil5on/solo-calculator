@@ -31,7 +31,7 @@ header{
     margin: 0 auto;
 }
 button{
-    padding: 3px !important;
+    padding: 8px !important;
     border: solid 2px #f9e611;
     margin: 0 auto;
     text-align: center;
@@ -50,7 +50,7 @@ button{
     border-radius: 0;
     width: 50px;
     float: right;
-    margin-top: 5px;
+    margin-top: 2px;
     text-align: right;
     color: black;
 }
