@@ -28,7 +28,7 @@ function doCalculate(){
         return;
     }else if((Number(place) + Number(kills)) > 100){
         var myNum = Number(place) + Number(kills);
-        output.innerHTML = `So what you're trying to tell us is there were at least <span class="special">${myNum}</span>? Nope. Try entering a realistic numbers.`;
+        output.innerHTML = `So what you're trying to tell us is there were at least <span class="special">${myNum}</span> in you lobby? Nope. Try entering a realistic numbers.`;
         return;
     }
 
