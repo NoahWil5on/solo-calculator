@@ -28,7 +28,7 @@ function doCalculate(){
         return;
     }else if((Number(place) + Number(kills)) > 100){
         var myNum = Number(place) + Number(kills);
-        output.innerHTML = `So what you're trying to tell us is there were at least <span class="special">${myNum}</span> in you lobby? Nope. Try entering a realistic numbers.`;
+        output.innerHTML = `So what you're trying to tell us is there were at least <span class="special">${myNum}</span> people in you lobby? Nope. Try entering realistic numbers.`;
         return;
     }
 
@@ -76,6 +76,12 @@ function doCalculate(){
 
     if(score <= 40){
         output.innerHTML = "That's pathetic.";
+        setTimeout(() => {
+            output.innerHTML = `You scored <span class="special">${score}</span> points.`;
+        }, 1000);
+        return;
+    }else if(score >= 110){
+        output.innerHTML = "Hey that's not bad!";
         setTimeout(() => {
             output.innerHTML = `Congratulations! you scored <span class="special">${score}</span> points!`;
         }, 1000);
