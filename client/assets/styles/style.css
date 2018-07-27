@@ -31,6 +31,7 @@ header{
     margin: 0 auto;
 }
 button{
+    vertical-align: middle;
     padding: 3px;
     border: solid 2px #f9e611;
     margin: 0 auto;
@@ -44,6 +45,8 @@ button{
     text-align: left;
 }
 .num-input input{
+    vertical-align: middle;
+    border-radius: 0;
     width: 50px;
     float: right;
     margin-top: 5px;
@@ -73,7 +76,7 @@ h2{
     margin: 0 auto;
     background-color: #111;
     color: white;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
