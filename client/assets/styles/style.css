@@ -31,8 +31,7 @@ header{
     margin: 0 auto;
 }
 button{
-    vertical-align: middle;
-    padding: 3px;
+    padding: 3px !important;
     border: solid 2px #f9e611;
     margin: 0 auto;
     text-align: center;
@@ -45,6 +44,8 @@ button{
     text-align: left;
 }
 .num-input input{
+    padding-top: 3px !important;
+    padding-right: 3px !important;
     vertical-align: middle;
     border-radius: 0;
     width: 50px;
