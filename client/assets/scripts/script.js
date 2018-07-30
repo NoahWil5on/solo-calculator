@@ -28,7 +28,7 @@ function doCalculate(){
         return;
     }else if((Number(place) + Number(kills)) > 100){
         var myNum = Number(place) + Number(kills);
-        output.innerHTML = `So what you're trying to tell us is there were at least <span class="special">${myNum}</span> people in you lobby? Nope. Try entering realistic numbers.`;
+        output.innerHTML = `So what you're trying to tell us is there were at least <span class="special">${myNum}</span> people in your lobby? Nope. Try entering realistic numbers.`;
         return;
     }
 
@@ -61,7 +61,7 @@ function doCalculate(){
     }else if(place == 6){
         myPlaceScore = 80;
     }else if(place == 5){
-        myPlaceScore = 75;
+        myPlaceScore = 85;
     }else if(place == 4){
         myPlaceScore = 88;
     }else if(place == 3){
